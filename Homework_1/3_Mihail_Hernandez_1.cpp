@@ -8,7 +8,7 @@
  */ 
 int main()
 {
-	unsigned short times_to_turn_slices;
+	unsigned short times_to_fly_slices;
 	unsigned short number_of_slices;
         unsigned short time_to_fry_side;
 	unsigned short pan_slice_capacity;
@@ -20,11 +20,11 @@ int main()
 	std::cout << "Enter number of slices: ";
 	std::cin >> number_of_slices;
 
-	times_to_turn_slices = (number_of_slices % pan_slice_capacity > 0)
+	times_to_fly_slices = (number_of_slices % pan_slice_capacity > 0)
 		? number_of_slices * 2 / pan_slice_capacity + 1
 		: number_of_slices * 2 / pan_slice_capacity;
 	
-	std::cout << times_to_turn_slices * time_to_fry_side << std::endl;
+	std::cout << times_to_fly_slices * time_to_fry_side << std::endl;
 	return 0;
 }
 
