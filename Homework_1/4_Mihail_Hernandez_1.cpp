@@ -1,10 +1,16 @@
 #include <iostream>
 
+/** 
+ * Name:           Mihail Hernandez
+ * Faculty number: 45564
+ * Programme:      Informatics
+ * Group:          3
+ */
+
 /**
  * A store has ice-creams of 3 and 5 balls. Check if want a given
  * number of balls can be made by the store.
  */
-
 
 /**
  * This function is recursive and it is used to solve the problem

@@ -1,5 +1,12 @@
 #include <iostream>
 
+/** 
+ * Name:           Mihail Hernandez
+ * Faculty number: 45564
+ * Programme:      Informatics
+ * Group:          3
+ */
+
 /**
  * Celsuis to fahrenheit. 
  */

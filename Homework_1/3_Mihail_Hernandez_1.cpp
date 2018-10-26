@@ -1,5 +1,12 @@
 #include <iostream>
 
+/** 
+ * Name:           Mihail Hernandez
+ * Faculty number: 45564
+ * Programme:      Informatics
+ * Group:          3
+ */
+
 /**
  * You can fry a given number of bread slices on a flying pan,
  * each side taking to fry for a given amount of time. Having
