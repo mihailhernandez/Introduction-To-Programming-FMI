@@ -8,7 +8,7 @@
 
 Напишете програма, която да проверява дали десетичката с координати (x, y) принадлежи на оцветената фигура заедно с контура.
 
-![Task_2](https://github.com/mihailhernandez/Introduction-To-Programming-FMI/tree/master/Seminars/Tasks/2018/10/22/images/Task_2.jpg)
+![Task_2](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/10/22/images/Task_2.jpg)
 
 ### Задача 3
 
@@ -29,7 +29,6 @@
 ### Задача 7
 Напишете програма, която пресмята и извежда на екрана n-тата степен на дадено цяло число x.
 
-
 ### Задача 8
 
 Напишете програма, която при въвеждане на цяло положително число n извежда числата от 1 до nxn в спираловиден вид.<br/>
@@ -44,8 +43,7 @@
 
 Да се напише програма, която по зададено число n>=0, намира n-тото число на редицата на Фибоначи: 
 
-![Task_9](https://github.com/mihailhernandez/Introduction-To-Progra
-mming-FMI/tree/master/Seminars/Tasks/2018/10/22/images/Task_9.jpg)
+![Task_9](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/10/22/images/Task_9.jpg)
 
 ### Задача 10 
 
@@ -59,8 +57,7 @@ mming-FMI/tree/master/Seminars/Tasks/2018/10/22/images/Task_9.jpg)
 
 Да се напише програма, която намира стойността на израза: 
 
-![Task_12](https://github.com/mihailhernandez/Introduction-To-Progra
-mming-FMI/tree/master/Seminars/Tasks/2018/10/22/images/Task_12.jpg)
+![Task_12](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/10/22/images/Task_12.jpg)
 
 Да има проверка, дали n е нечетно, при въвеждане.
 
