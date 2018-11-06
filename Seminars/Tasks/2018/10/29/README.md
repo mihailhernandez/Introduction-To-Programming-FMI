@@ -21,9 +21,9 @@
 Да се напише програма, която по въведено число между 1 и 26 извежда пирамида във вида:
 
 Пример – n = 4 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A<br/>                                                              
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A B A<br/>                                                            
-&nbsp;&nbsp;&nbsp;&nbsp;A B C B A<br/>                                                          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A<br/>                                                              
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A B A<br/>                                                            
+&nbsp;&nbsp;&nbsp;A B C B A<br/>                                                          
 A B C D C B A
 
 ### Задача 5 
