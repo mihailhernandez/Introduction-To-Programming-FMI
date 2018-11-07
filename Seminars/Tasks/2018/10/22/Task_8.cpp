@@ -18,12 +18,22 @@ int main()
 
     std::cin >> n;
 
-    for (int i = 0; i < n * n; i++)
+    for (int i = 1; i <= n * n; i++)
     {
-        std::cout >> i + 1 >> " ";
-        if ((i + 1) % n == 0)
-         
+        std::cout << i << " ";
+        if (i % n == 0 && i != n * n)
+        {
+            std::cout << std::endl;
+            for (int num = i + n; num > i; num--)
+            {
+                std::cout << num << " ";
+            }
+            std::cout << std::endl;
+            i += n;
+        }
     }
 
+    std::cout << std::endl;
+
     return 0;
-}   
+}
