@@ -10,7 +10,13 @@ int main()
 
     std::cin >> n;
 
-    while (n > 0)
+    if (n == 1)
+    {
+        std::cout << 1 << std::endl;
+        return 0;
+    }
+
+    while (n - 1 > 0)
     {
         c = a + b;
         a = b;
