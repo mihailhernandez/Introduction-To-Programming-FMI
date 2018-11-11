@@ -6,7 +6,7 @@ This repository is dedicated for the purpose of writing homeworks, code in class
 
 #### [Practices](./Practices)
 * [Practice homework 1](./Practices/Homeworks/Homework_1)
-####[Seminars](./Seminars)
+#### [Seminars](./Seminars)
 * [Seminar homework 1](./Seminars/Homeworks/Homework_1)
 
 ### What text editor do I use?
