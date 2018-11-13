@@ -1,6 +1,5 @@
 #include <iostream>
 #define MAX_NAME_SIZE 28
-#define MAX_NAME_COUNT 9
 
 /*
  * Да се напише програма „Минута е много“. Програмата 
@@ -21,7 +20,7 @@ int main()
 
     for (int i = 0; names[i] != '\0' && !is_name_present; i++)
     {
-        for (int j = 0; name[j] != '\0' && !is_name_present; j++)
+        for (int j = 0; name[j] != '\0'; j++)
         {
             if (names[i] != name[j])
             {
