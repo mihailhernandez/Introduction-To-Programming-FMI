@@ -3,7 +3,7 @@
 #### Задача 1
 Дадена е точка с координати реални числа (x, y). Да се определи дали принадлежи на някоя от фигурите и ако да – на коя точно.
 
-![Task_2](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/11/20/images/Task_1.jpg)
+![Task_1](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/11/20/images/Task_1.jpg)
 
 #### Задача 2
 Дадени са N (1 <= N <= 100) цели положителни числа. Ротация на тези числа наричаме изместване на всички числа с една позиция напред – тоест първото става второ, второто – трето, 		(N-1)-вото става N-то и N-тото става първо. Примерно ако имаме числата 1 2 3 4 след една ротация те ставата – 4 1 2 3, след още една ротация – 3 4 1 2 и така нататък. Да се отпечатат въведените числа след M на брой такива ротации ( 0 <= M <= 1000000). 
@@ -133,7 +133,7 @@ true</br>
 
 Изход:
 
-![Task_2](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/11/20/images/Task_8.jpg)
+![Task_8](https://raw.githubusercontent.com/mihailhernandez/Introduction-To-Programming-FMI/master/Seminars/Tasks/2018/11/20/images/Task_8.jpg)
 
 #### Задача 9
 Двойно число ще наричаме число, образувано от друго число, слепено само със себе си. Намерете всички такива числа в интервал [a, b].
