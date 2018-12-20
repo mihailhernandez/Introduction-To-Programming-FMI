@@ -23,6 +23,9 @@ _7. [Низове - задачи и константи](./Lectures/Lectures/Ни
 _8. [Функции](./Lectures/Lectures/Функции.pdf)_</br>
 _9. [Функции и примери](./Lectures/Lectures/Функции%20и%20примери.pdf)_</br>
 _10. [Функции от по-висок ред](./Lectures/Lectures/Функции%20от%20по-висок%20ред.pdf)_</br>
+_11. [Псевдоним](./Lectures/Lectures/Псевдоним.pdf)_</br>
+_12. [Рекурсия](./Lectures/Lectures/Рекурсия.pdf)_</br>
+_13. [Динамични заделяна на памет](./Lectures/Lectures/Динамично%20заделяне%20на%20памет.pdf)_</br>
 
 ### Practices
 
