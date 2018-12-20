@@ -32,12 +32,24 @@ void print_grades_of_student(double student_grades[STUDENTS][COLUMNS], int facul
     }
 }
 
+void print_student_fac_num_with_high_grades(double student_grades[STUDENTS][COLUMNS])
+{
+    int average = 0;
+    for (int i = 0; i < STUDENTS; i++)
+    {
+        if ((student_grades[i][1] + student_grades[i][2]) / 2 >= 4.5)
+        {
+            std::cout << student_grades[i][0] << std::endl;
+        }
+    }
+}
+
 int main()
 {
-    double grades[GRADES] = {1.5, 3, 3, 4};
+    double grades[GRADES] = {1.5, 3, 3, 4}; 
     double student_grades[STUDENTS][COLUMNS] = 
-        {
-            {45000, 4.2, 5.5},
+        { 
+            {45000, 4.2, 5.5}, 
             {45001,   2, 3.5},
             {45002,   6,   6}
         };
@@ -49,6 +61,8 @@ int main()
     print_grades_of_student(student_grades, 45000);
     print_grades_of_student(student_grades, 45001);
     print_grades_of_student(student_grades, 45002);
+
+    print_student_fac_num_with_high_grades(student_grades);
 
     return 0;
 }   
