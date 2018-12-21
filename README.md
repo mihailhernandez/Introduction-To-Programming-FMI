@@ -35,9 +35,12 @@ _[2018/10/19](./Practices/Tasks/2018/10/19)_</br>
 _[2018/10/26](./Practices/Tasks/2018/10/26)_</br>
 _[2018/11/02](./Practices/Tasks/2018/11/02)_</br>
 _[2018/11/09](./Practices/Tasks/2018/11/09)_</br>
+_[2018/11/30](./Practices/Tasks/2018/11/30)_</br>
+_[2018/12/07](./Practices/Tasks/2018/12/07)_</br>
 
 #### Homeworks
 _[Practice homework 1](./Practices/Homeworks/Homework_1)_</br>
+_[Practice homework 2](./Practices/Homeworks/Homework_2)_</br>
 
 ### Seminars
 
