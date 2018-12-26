@@ -25,7 +25,7 @@ _9. [Функции и примери](./Lectures/Lectures/Функции%20и%2
 _10. [Функции от по-висок ред](./Lectures/Lectures/Функции%20от%20по-висок%20ред.pdf)_</br>
 _11. [Псевдоним](./Lectures/Lectures/Псевдоним.pdf)_</br>
 _12. [Рекурсия](./Lectures/Lectures/Рекурсия.pdf)_</br>
-_13. [Динамични заделяна на памет](./Lectures/Lectures/Динамично%20заделяне%20на%20памет.pdf)_</br>
+_13. [Динамично заделяне на памет](./Lectures/Lectures/Динамично%20заделяне%20на%20памет.pdf)_</br>
 
 ### Practices
 
@@ -35,9 +35,12 @@ _[2018/10/19](./Practices/Tasks/2018/10/19)_</br>
 _[2018/10/26](./Practices/Tasks/2018/10/26)_</br>
 _[2018/11/02](./Practices/Tasks/2018/11/02)_</br>
 _[2018/11/09](./Practices/Tasks/2018/11/09)_</br>
+_[2018/11/30](./Practices/Tasks/2018/11/30)_</br>
+_[2018/12/07](./Practices/Tasks/2018/12/07)_</br>
 
 #### Homeworks
 _[Practice homework 1](./Practices/Homeworks/Homework_1)_</br>
+_[Practice homework 2](./Practices/Homeworks/Homework_2)_</br>
 
 ### Seminars
 
