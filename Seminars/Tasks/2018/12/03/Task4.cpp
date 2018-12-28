@@ -1,20 +1,19 @@
 #include "Task4.hpp"
 
-double sum_of_max_min_avg(double array[])
+double sum_of_max_min_avg(double array[], int length)
 {
-    double *ptr = array;
-    double max, min, length = 0, sum = 0;
-    
-    for (max = min = *ptr; *ptr; ptr++, length++)
+    double max = *array, min = *array, sum = 0;
+
+    for (int i = 0; i < length; i++)
     {
-        sum += *ptr;
-        if (max < *ptr)
+        sum += array[i];
+        if (max < array[i])
         {
-            max = *ptr;
+            max = array[i];
         }
-        if (min > *ptr)
+        if (min > array[i])
         {
-            min = *ptr;
+            min = array[i];
         }
     }
 
