@@ -1,17 +1,6 @@
-#include <iostream>
+#include "Task1.hpp"
 
-int sum(int a, int b)
+long long factoriel(int number)
 {
-    return a + b;
-}
-
-int main()
-{
-    int a, b;
-
-    std::cin >> a >> b;
-
-    std::cout << sum(a, b) << std::endl;
-
-    return 0;
+    return (number != 1) ? number * factoriel(number - 1) : number;
 }

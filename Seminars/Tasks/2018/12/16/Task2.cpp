@@ -1,20 +1,10 @@
-#include <iostream>
-#include <math.h>
+#include "Task2.hpp"
 
-double distance(double x1, double y1, double x2, double y2)
+int fibonacci(int number)
 {
-    return sqrt(abs(x1 - x2) * abs(x1 - x2) + abs(y1 - y2) * abs(y1 - y2));
-}
-
-int main()
-{
-    double x1, y1;
-    double x2, y2;
-
-    std::cin >> x1 >> y1;
-    std::cin >> x2 >> y2;
-
-    std::cout << distance(x1, y1, x2, y2) << std::endl;
-
-    return 0;
+    if (number == 1)
+        return 0;
+    if (number == 2)
+        return 1;
+    return fibonacci(number - 1) + fibonacci(number - 2);
 }

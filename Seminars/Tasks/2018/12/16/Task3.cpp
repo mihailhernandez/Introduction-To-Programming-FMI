@@ -1,21 +1,11 @@
 #include <iostream>
+#include "Task3.hpp"
 
-void swap(int *a, int *b)
+bool contains(int array[], int size, int number)
 {
-    int c = *a;
-    *a = *b;
-    *b = c;
-}
-
-int main()
-{
-    int a, b;
-
-    std::cin >> a >> b;
-
-    swap(&a, &b);
-
-    std::cout << a << " " << b << std::endl;
-
-    return 0;
+    if (array[size - 1] == number)
+        return true;
+    else if (size > 1)
+        return contains(array, size - 1, number);
+    return false;
 }

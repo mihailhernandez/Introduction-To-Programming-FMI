@@ -1,33 +1,13 @@
-#include <iostream>
-#define BUFFER 1000
+#include "Task6.hpp"
 
-bool contains(char sentence[], char sub[])
+int smallest_digit(int number)
 {
-    for (char *s = sentence, *c = sub; *s && *c; s++)
-    {
-        if (*s == *c)
-        {
-            c++;
-            if (!(*(++c)))
-            {   
-                return true;
-            }
-        }
-        else
-        {
-            c = sub;
-        }
-    }
-    return false;
-}
-
-int main()
-{
-    char sentence[BUFFER], sub[BUFFER];
-
-    std::cin >> sentence >> sub;
-
-    std::cout << std::boolalpha << contains(sentence, sub) << std::endl;
-
-    return 0;
+    int current_digit = number % 10;
+    number /= 10;
+    if (number == 0)
+        return current_digit;
+    int next = smallest_digit(number);
+    return current_digit <= next
+        ? current_digit
+        : next;
 }

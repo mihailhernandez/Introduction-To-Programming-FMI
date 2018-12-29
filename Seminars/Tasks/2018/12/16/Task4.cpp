@@ -1,24 +1,11 @@
-#include <iostream>
+#include "Task4.hpp"
 
-bool isPrime(int num)
-{
-    for (int i = 2; i <= num / 2; i++)
-    {
-        if (num % i == 0)
-        {
-            return false;
-        }
-    }
-    return true;
-}
-
-int main()
+char first_capital(char arr[])
 {   
-    int a;
-
-    std::cin >> a;
-
-    std::cout << std::boolalpha << isPrime(a) << std::endl;
-
+    char *ptr = arr;
+    if (*ptr >= 'A' && *ptr <= 'Z')
+        return *ptr;
+    else if (*(ptr + 1))
+        return first_capital(ptr + 1);
     return 0;
 }
