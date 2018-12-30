@@ -53,7 +53,7 @@ _[2018/11/20](./Seminars/Tasks/2018/11/20)_</br>
 _[2018/11/26](./Seminars/Tasks/2018/11/26)_</br>
 _[2018/12/03](./Seminars/Tasks/2018/12/03)_</br>
 _[2018/12/10](./Seminars/Tasks/2018/12/10)_</br>
-_[2018/12/16](./Seminars/Tasks/2018/12/16)_</br>
+_[2018/12/17](./Seminars/Tasks/2018/12/17)_</br>
 
 #### Homeworks
 _[Seminar homework 1](./Seminars/Homeworks/Homework_1)_</br>
