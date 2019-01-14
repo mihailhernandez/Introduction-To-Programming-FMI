@@ -26,6 +26,7 @@ _10. [Функции от по-висок ред](./Lectures/Lectures/Функц
 _11. [Псевдоним](./Lectures/Lectures/Псевдоним.pdf)_</br>
 _12. [Рекурсия](./Lectures/Lectures/Рекурсия.pdf)_</br>
 _13. [Динамично заделяне на памет](./Lectures/Lectures/Динамично%20заделяне%20на%20памет.pdf)_</br>
+_14. [Backtracking](./Lectures/Lectures/Backtracking.pdf)_</br>
 
 ### Practices
 
@@ -41,6 +42,7 @@ _[2018/12/07](./Practices/Tasks/2018/12/07)_</br>
 #### Homeworks
 _[Practice homework 1](./Practices/Homeworks/Homework_1)_</br>
 _[Practice homework 2](./Practices/Homeworks/Homework_2)_</br>
+_[Practice homework 3](./Practices/Homeworks/Homework_3)_</br>
 
 ### Seminars
 
