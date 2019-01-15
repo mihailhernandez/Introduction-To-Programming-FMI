@@ -43,10 +43,7 @@ void print_merge(int current_power, int power)
 void print_star_tree(int current_power, int power)
 {
     if (current_power == 1)
-    {
-        print_base(power);
-        return;
-    }
+        return print_base(power);
     print_star_tree(current_power / 2, power);
     print_merge(current_power, power);
     print_line(current_power, power);
