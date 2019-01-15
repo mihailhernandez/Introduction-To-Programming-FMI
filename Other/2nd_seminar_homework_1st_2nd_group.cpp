@@ -7,16 +7,19 @@ void print_base(int power)
     std::cout << std::endl;
 }
 
+void print_spacing(int spacing)
+{
+    for (int i = 0; i < spacing; i++, std::cout << " ");
+}
+
 void print_line(int current_power, int power)
 {
     for (int rows = current_power; rows > 0; rows--, std::cout << std::endl)
         for (int times = power / current_power; times > 0; times--)
         {
-            for (int spacing = 0; spacing < current_power - 1; spacing++)
-                std::cout << " ";
+            print_spacing(current_power - 1);
             std::cout << "*";
-            for (int spacing = 0; spacing < current_power; spacing++)
-                std::cout << " ";
+            print_spacing(current_power);
         }
 }
 
@@ -28,33 +31,35 @@ void print_merge(int current_power, int power)
         int middle_spacing = (rows - 1) * 2 + 1;
         for (int times = power / current_power; times > 0; times--)
         {
-            for (int spacing = 0; spacing < side_spacing; spacing++)
-                std::cout << " ";
+            print_spacing(side_spacing);
             std::cout << "*";
-            for (int spacing = 0; spacing < middle_spacing; spacing++)
-                std::cout << " ";
+            print_spacing(middle_spacing);
             std::cout << "*";
-            for (int spacing = 0; spacing < side_spacing + 1; spacing++)
-                std::cout << " ";
+            print_spacing(side_spacing + 1);
         }
     }
 }   
 
-void print_star_tree_helper(int current_power, int power)
+void print_star_tree(int current_power, int power)
 {
     if (current_power == 1)
+    {
         print_base(power);
-    current_power *= 2;
-    if (current_power > power)
         return;
+    }
+    print_star_tree(current_power / 2, power);
     print_merge(current_power, power);
     print_line(current_power, power);
-    print_star_tree_helper(current_power, power);
 }
 
-void print_star_tree(int power)
+bool is_a_power_of_2(int number)
 {
-    print_star_tree_helper(1, power);
+    return (number & (number - 1)) == 0;
+}
+
+bool is_in_range(int number)
+{
+    return (number >= 1 && number <= 256);
 }
 
 int main()
@@ -63,19 +68,19 @@ int main()
 
     std::cin >> power;
 
-    if (!(power >= 1 && power <= 256))
+    if (!is_in_range(power))
     {
-        std::cout << "Bad entry." << std::endl;
+        std::cout << "Not in range." << std::endl;
         return -1;
     }
 
-    if (power & (power - 1) != 0)
+    if (!is_a_power_of_2(power))
     {
         std::cout << "Not a power of 2." << std::endl;
         return -2;
     }
 
-    print_star_tree(power);
+    print_star_tree(power, power);
 
     return 0;
 }
