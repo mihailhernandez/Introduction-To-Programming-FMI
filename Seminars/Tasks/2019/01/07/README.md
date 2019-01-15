@@ -6,9 +6,9 @@
 Пример:</br>
 Вход: hello pale</br>
 Изход:</br>
- p</br>
- a</br>
- l</br>
+&nbsp;&nbsp;p</br>
+&nbsp;&nbsp;a</br>
+&nbsp;&nbsp;l</br>
 hello </br>
 
 ### Задача 2
