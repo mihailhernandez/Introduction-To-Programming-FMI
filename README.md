@@ -27,6 +27,13 @@ _11. [Псевдоним](./Lectures/Lectures/Псевдоним.pdf)_</br>
 _12. [Рекурсия](./Lectures/Lectures/Рекурсия.pdf)_</br>
 _13. [Динамично заделяне на памет](./Lectures/Lectures/Динамично%20заделяне%20на%20памет.pdf)_</br>
 _14. [Backtracking](./Lectures/Lectures/Backtracking.pdf)_</br>
+_15. [Форматиране на входа и изхода](./Lectures/Lectures/Форматиране%20на%20входа%20и%20изхода.pdf)_</br>
+_16. [Упражнение](./Lectures/Lectures/Упражнение.pdf)_</br>
+
+### Test
+
+_[Писмен изпит 2011](./Lectures/Tests/Писмен%20изпит%20%2011.pdf)_</br>
+_[Примерни писмени изпити](./Lectures/Tests/Примерни%20писмени%20изпити.pdf)_</br>
 
 ### Practices
 
