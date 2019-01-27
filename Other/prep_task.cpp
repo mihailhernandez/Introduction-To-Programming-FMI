@@ -2,7 +2,6 @@
 // буквите, поставя указател към последната промяна и връща броя на срещанията.
 
 #include <iostream>
-#define STR_SIZE 100
 
 int strlen(char *ptr)
 {
