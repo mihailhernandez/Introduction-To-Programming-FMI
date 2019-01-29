@@ -93,6 +93,11 @@ int main()
     // print new sorted array
     std::cout << "new sorted array -> ";
     print(new_array, 10);
-    
+
+    // ALMOST FORGOT
+    // DELETE MEMORY
+    delete[] new_array;
+    delete[] copied_array;
+
     return 0;
 }
