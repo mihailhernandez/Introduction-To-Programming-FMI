@@ -60,7 +60,8 @@ int main()
     // Swap that really works v.1
     std::cout << "Swap that really works. v.1" << std::endl;
     std::cout << "Before a = " << a << std::endl << "Before b = " << b << std::endl;
-    swap_that_works_1(&a, &b); // swap_that_works_1(ptr_a, ptr_b);
+    swap_that_works_1(&a, &b); 
+    // swap_that_works_1(ptr_a, ptr_b); is practically the same
     std::cout << "After a = " << a << std::endl << "After b = " << b << std::endl;
 
     int c = 4;
@@ -69,7 +70,7 @@ int main()
     // Swap that really works v.2
     std::cout << "Swap that really works. v.2" << std::endl;
     std::cout << "Before c = " << c << std::endl << "Before d = " << d << std::endl;
-    swap_that_works_1(&c, &d);
+    swap_that_works_2(c, d);
     std::cout << "After c = " << c << std::endl << "After d = " << d << std::endl;
     
 
