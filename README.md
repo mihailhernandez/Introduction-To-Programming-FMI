@@ -38,13 +38,13 @@ _[Примерни писмени изпити](./Lectures/Tests/Примерн�
 ### Practices
 
 #### Classes
-_[2018/10/12](./Practices/Tasks/2018/10/12)_</br>
-_[2018/10/19](./Practices/Tasks/2018/10/19)_</br>
-_[2018/10/26](./Practices/Tasks/2018/10/26)_</br>
-_[2018/11/02](./Practices/Tasks/2018/11/02)_</br>
-_[2018/11/09](./Practices/Tasks/2018/11/09)_</br>
-_[2018/11/30](./Practices/Tasks/2018/11/30)_</br>
-_[2018/12/07](./Practices/Tasks/2018/12/07)_</br>
+_[2018-10-12](./Practices/Tasks/2018/10/12)_</br>
+_[2018-10-19](./Practices/Tasks/2018/10/19)_</br>
+_[2018-10-26](./Practices/Tasks/2018/10/26)_</br>
+_[2018-11-02](./Practices/Tasks/2018/11/02)_</br>
+_[2018-11-09](./Practices/Tasks/2018/11/09)_</br>
+_[2018-11-30](./Practices/Tasks/2018/11/30)_</br>
+_[2018-12-07](./Practices/Tasks/2018/12/07)_</br>
 
 #### Homeworks
 _[Practice homework 1](./Practices/Homeworks/Homework_1)_</br>
@@ -54,15 +54,17 @@ _[Practice homework 3](./Practices/Homeworks/Homework_3)_</br>
 ### Seminars
 
 #### Classes
-_[2018/10/15](./Seminars/Tasks/2018/10/15)_</br>
-_[2018/10/22](./Seminars/Tasks/2018/10/22)_</br>
-_[2018/10/29](./Seminars/Tasks/2018/10/29)_</br>
-_[2018/11/05](./Seminars/Tasks/2018/11/05)_</br>
-_[2018/11/20](./Seminars/Tasks/2018/11/20)_</br>
-_[2018/11/26](./Seminars/Tasks/2018/11/26)_</br>
-_[2018/12/03](./Seminars/Tasks/2018/12/03)_</br>
-_[2018/12/10](./Seminars/Tasks/2018/12/10)_</br>
-_[2018/12/17](./Seminars/Tasks/2018/12/17)_</br>
+_[2018-10-15](./Seminars/Tasks/2018/10/15)_</br>
+_[2018-10-22](./Seminars/Tasks/2018/10/22)_</br>
+_[2018-10-29](./Seminars/Tasks/2018/10/29)_</br>
+_[2018-11-05](./Seminars/Tasks/2018/11/05)_</br>
+_[2018-11-20](./Seminars/Tasks/2018/11/20)_</br>
+_[2018-11-26](./Seminars/Tasks/2018/11/26)_</br>
+_[2018-12-03](./Seminars/Tasks/2018/12/03)_</br>
+_[2018-12-10](./Seminars/Tasks/2018/12/10)_</br>
+_[2018-12-17](./Seminars/Tasks/2018/12/17)_</br>
+_[2019-01-03](./Seminars/Tasks/2019/01/03)_</br>
+_[2019-01-07](./Seminars/Tasks/2019/01/07)_</br>
 
 #### Homeworks
 _[Seminar homework 1](./Seminars/Homeworks/Homework_1)_</br>
